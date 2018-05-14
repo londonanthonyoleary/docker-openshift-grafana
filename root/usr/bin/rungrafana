@@ -33,7 +33,7 @@ export NSS_WRAPPER_GROUP=/etc/group
 #   done
 # fi
 #grafana-cli  --pluginsDir "${GF_PATHS_PLUGINS}" plugins install natel-discrete-panel
-grafana-cli  --pluginsDir "${GF_PATHS_PLUGINS}" --pluginUrl   https://nofile.io/f/usybRN80x2y/discreteannotation-1.zip plugins install discreteannotation 
+grafana-cli  --pluginsDir "${GF_PATHS_PLUGINS}" --pluginUrl   http://www.filehosting.org/file/details/739621/discreteannotation-1.zip plugins install discreteannotation 
 grafana-cli  --pluginsDir "${GF_PATHS_PLUGINS}" plugins install vonage-status-panel
 
 exec /usr/sbin/grafana-server                   \
