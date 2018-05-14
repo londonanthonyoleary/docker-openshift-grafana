@@ -33,6 +33,7 @@ export NSS_WRAPPER_GROUP=/etc/group
 #   done
 # fi
 grafana-cli  --pluginsDir "${GF_PATHS_PLUGINS}" plugins install natel-discrete-panel
+grafana-cli  --pluginsDir "${GF_PATHS_PLUGINS}" plugins install vonage-status-panel
 
 exec /usr/sbin/grafana-server                   \
   --homepath=/usr/share/grafana                 \
