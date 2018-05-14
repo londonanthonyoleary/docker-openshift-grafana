@@ -32,6 +32,7 @@ export NSS_WRAPPER_GROUP=/etc/group
 #     grafana-cli  --pluginsDir "${GF_PATHS_PLUGINS}" plugins install ${plugin}
 #   done
 # fi
+grafana-cli  --pluginsDir "${GF_PATHS_PLUGINS}" plugins install natel-discrete-panel
 
 exec /usr/sbin/grafana-server                   \
   --homepath=/usr/share/grafana                 \
